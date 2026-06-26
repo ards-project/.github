@@ -8,15 +8,9 @@ Our mission is to enable secure, decentralized, and interoperable discovery by s
 
 ## 🧭 What is ARD?
 
-As the agentic ecosystem scales, AI clients must dynamically discover and invoke external capabilities across organizational boundaries. **ARD** sits entirely *before* invocation: it helps the client find the right resource, which is then invoked through its own native mechanism.
+As the agentic ecosystem scales, AI clients must dynamically discover and invoke external capabilities across organizational boundaries. ARD sits entirely **before invocation**, allowing clients to search and query discovery services dynamically (*"What is available for this task?"*) and retrieve matching resource descriptions, which are then invoked via their native mechanisms.
 
-The ARD standard is built around several core pillars:
-
-*   **Search-First Discovery:** Moves away from static "app store" install models, allowing AI clients to query discovery services dynamically (*"What is available for this task?"*) based on natural-language needs.
-*   **Context Window Optimization:** Solves context limit bottlenecks by offloading candidate selection to dedicated discovery registries, eliminating the need to inject thousands of tool descriptions into the LLM context window.
-*   **Artifact-Agnostic Envelope:** Serves as a clean metadata envelope using IANA media types to wrap MCP servers, A2A agents, and static Skills without prescribing internal protocol schemas.
-*   **Decoupled Cryptographic Trust:** Decouples logical discovery names (`urn:air`) from mutable physical workload identities (SPIFFE, DIDs), protecting enterprise network topologies while enabling security via progressive trust verification.
-
+By offloading candidate selection to dedicated discovery registries, ARD reduces LLM context window usage and enables progressive cryptographic trust verification without coupling discovery names (`urn:air`) to mutable physical workload identities.
 
 ---
 

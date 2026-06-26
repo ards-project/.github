@@ -26,29 +26,17 @@ The ARD standard is built around several core pillars:
 *   📖 **[ard-docs](https://github.com/ards-project/ard-docs)** — The source code and content for the official project documentation site and developer guides.
 *   🔌 **[ard-connectors](https://github.com/ards-project/ard-connectors)** — Reference connectors, adapter templates, and SDK integration layers for major agent platforms and protocols.
 
-
 ---
 
 ## 🤝 Industry Collaboration
 
 The ARD standard is currently developed as an open-source collaboration among engineers and architects from major industry organizations. We collaborate closely with contributors from **Cisco, Databricks, GitHub, GoDaddy, Google, Hugging Face, Microsoft, Nvidia, Salesforce, ServiceNow, and Snowflake** to prevent industry fragmentation and drive global standards harmonization.
 
-
 ---
 
 ## 💬 Join the Community
 
 *   **Discord:** Join our channel @ https://discord.gg/VpcmAzsfT.
-
-
----
-
-## 🤝 Contributing
-
-We welcome contributions of all types! To get started:
-1. Read the contribution guidelines in [ard-spec/README.md](https://github.com/ards-project/ard-spec#contributing).
-2. For normative spec changes, please open an issue first to discuss the design.
-3. For non-normative contributions (bug fixes, tooling, examples, reference code), feel free to open a Pull Request directly!
 
 ---
 

@@ -1,6 +1,6 @@
-# Agentic Resource Discovery (ARD) Standard Project
+# Agentic Resource Discovery (ARD) Specification
 
-Welcome to the official home of the **Agentic Resource Discovery (ARD)** standards project. We are a collaborative, open-source initiative dedicated to establishing an open, federated discovery protocol for **agentic resources**—any external capability an AI client can call on to perform a task (including agents, MCP servers, Skills, APIs, or workflows).
+Welcome to the official home of the **Agentic Resource Discovery (ARD)** specification. We are a collaborative, open-source initiative dedicated to establishing an open, federated discovery protocol for **agentic resources**—any external capability an AI client can call on to perform a task (including agents, MCP servers, Skills, APIs, or workflows).
 
 Our mission is to enable secure, decentralized, and interoperable discovery by solving the **discovery, context limit, and trust bottleneck** at scale.
 

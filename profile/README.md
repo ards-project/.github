@@ -1,19 +1,21 @@
 # Agentic Resource Discovery (ARD) Standard Project
 
-Welcome to the official home of the **Agentic Resource Discovery (ARD)** standards project. We are a collaborative, open-source initiative dedicated to establishing a federated, domain-anchored standard for cataloging, searching, and discovering agentic capabilities across the web.
+Welcome to the official home of the **Agentic Resource Discovery (ARD)** standards project. We are a collaborative, open-source initiative dedicated to establishing an open, federated discovery protocol for **agentic resources**—any external capability an AI client can call on to perform a task (including agents, MCP servers, Skills, APIs, or workflows).
 
-Our mission is to enable safe, secure, and interoperable agent-to-agent (A2A) and client-to-agent communications by solving the **trust, discovery, and naming bottleneck** at web scale.
+Our mission is to enable secure, decentralized, and interoperable discovery by solving the **discovery, context limit, and trust bottleneck** at scale.
 
 ---
 
 ## 🧭 What is ARD?
 
-As the agentic ecosystem scales, agents must dynamically discover and invoke external tools, skills, and secondary agents across organizational boundaries. **ARD** provides the standardized protocol and cryptographic envelope to govern this process:
+As the agentic ecosystem scales, AI clients must dynamically discover and invoke external capabilities across organizational boundaries. **ARD** sits entirely *before* invocation: it helps the client find the right resource, which is then invoked through its own native mechanism.
 
-*   **Search-First Discovery:** Moves away from static "app store" install models, allowing clients to search and index capabilities dynamically.
-*   **Context Window Optimization:** Solves context limit bottlenecks by offloading tool selection to dedicated discovery registries, eliminating the need to inject thousands of tool descriptions into the LLM context window.
+The ARD standard is built around several core pillars:
+
+*   **Search-First Discovery:** Moves away from static "app store" install models, allowing AI clients to query discovery services dynamically (*"What is available for this task?"*) based on natural-language needs.
+*   **Context Window Optimization:** Solves context limit bottlenecks by offloading candidate selection to dedicated discovery registries, eliminating the need to inject thousands of tool descriptions into the LLM context window.
 *   **Artifact-Agnostic Envelope:** Serves as a clean metadata envelope using IANA media types to wrap MCP servers, A2A agents, and static Skills without prescribing internal protocol schemas.
-*   **Decoupled Cryptographic Trust:** Decouples logical discovery names (`urn:air`) from mutable physical workload identities (SPIFFE, DIDs), protecting enterprise network topologies while maintaining absolute security via progressive trust verification.
+*   **Decoupled Cryptographic Trust:** Decouples logical discovery names (`urn:air`) from mutable physical workload identities (SPIFFE, DIDs), protecting enterprise network topologies while enabling security via progressive trust verification.
 
 
 ---
@@ -22,7 +24,7 @@ As the agentic ecosystem scales, agents must dynamically discover and invoke ext
 
 *   📚 **[ard-spec](https://github.com/ards-project/ard-spec)** — The canonical, single source of truth for the ARD specification, CDDL/JSON/OpenAPI schemas, and architecture decision records (ADRs).
 *   📖 **[ard-docs](https://github.com/ards-project/ard-docs)** — The source code and content for the official project documentation site and developer guides.
-*   🔌 **[adr-connectors](https://github.com/ards-project/adr-connectors)** — Reference connectors, adapter templates, and SDK integration layers for major agent platforms and protocols.
+*   🔌 **[ard-connectors](https://github.com/ards-project/ard-connectors)** — Reference connectors, adapter templates, and SDK integration layers for major agent platforms and protocols.
 
 
 ---

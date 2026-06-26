@@ -10,9 +10,7 @@ Our mission is to enable secure, decentralized, and interoperable discovery by s
 
 As the agentic ecosystem scales, AI clients must dynamically discover and invoke external capabilities across organizational boundaries. ARD sits entirely **before invocation**, allowing clients to search and query discovery services dynamically (*"What is available for this task?"*) and retrieve matching resource descriptions, which are then invoked via their native mechanisms.
 
-By offloading candidate selection to dedicated discovery registries, ARD reduces LLM context window usage and enables progressive cryptographic trust verification without coupling discovery names (`urn:air`) to mutable physical workload identities.
-
----
+By offloading candidate selection to dedicated discovery registries, ARD reduces LLM context window usage and enables progressive cryptographic trust verification without coupling discovery names to mutable physical workload identities.
 
 ## 🗂️ Key Repositories
 
@@ -20,13 +18,10 @@ By offloading candidate selection to dedicated discovery registries, ARD reduces
 *   📖 **[ard-docs](https://github.com/ards-project/ard-docs)** — The source code and content for the official project documentation site and developer guides.
 *   🔌 **[ard-connectors](https://github.com/ards-project/ard-connectors)** — Reference connectors, adapter templates, and SDK integration layers for major agent platforms and protocols.
 
----
-
 ## 🤝 Industry Collaboration
 
 The ARD standard is currently developed as an open-source collaboration among engineers and architects from major industry organizations. We collaborate closely with contributors from **Cisco, Databricks, GitHub, GoDaddy, Google, Hugging Face, Microsoft, Nvidia, Salesforce, ServiceNow, and Snowflake** to prevent industry fragmentation and drive global standards harmonization.
 
----
 
 ## 💬 Join the Community
 

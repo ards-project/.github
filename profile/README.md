@@ -25,7 +25,7 @@ The ARD standard is currently developed as an open-source collaboration among en
 
 ## 💬 Join the Community
 
-*   **Discord:** Join our channel @ https://discord.gg/DNE4JTrPm.
+*   **Discord:** Join our channel @ https://discord.gg/2TK3Tnn27R.
 
 ---
 
